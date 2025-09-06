@@ -54,5 +54,5 @@ a:hover{
     padding: 20px;/*margen interno dentro de la caja */
     background: #1e1e1e; /*fondo un poco mas claro que el body*/
     border-radius: 8px;/*bordes redondeados suaves*/
-    box-shadow: ;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);/* Sombra para efecto de profundidad */
    }
