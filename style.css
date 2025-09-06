@@ -6,3 +6,53 @@
     padding: 0;
 
 }
+/* ===========================
+   RESET BÁSICO
+   =========================== */
+/* Saca márgenes y paddings por defecto, 
+   y hace que todo respete el tamaño definido */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ===========================
+   ESTILO GENERAL
+   =========================== */
+body{
+    font-family: 'Roboto', sans-serif;/* Fuente principal para texto */
+    background-color: #121212;/* Fondo principal oscuro */
+    color: #eaeaea;/* Color de texto claro */
+    line-height: 1.6;/* Espaciado entre líneas para mejor lectura */
+    padding: 20%; /* Margen interno general */
+}
+/* ===========================
+   TÍTULOS
+   =========================== */
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif; /*fuente para titulo distinta */
+    color: #ff5252; /*color rojo acento*/
+    margin-bottom: 10px; /*separacion inferior*/
+}
+/* ===========================
+   LINKS
+   =========================== */
+a {
+    color: #ff5252; /*enlace en rojo*/
+    text-decoration: none; /*quita el subrayado*/
+    transition: color 0.3s; /*animacion suave al pasar el mouse*/
+}
+a:hover{
+    color: #ffffff; /*al pasar el mouse se pone blanco */
+
+}
+/* ===========================
+   SECCIONES
+   =========================== */
+   section{
+    margin: 40px 0;/* Separación vertical entre secciones */
+    padding: 20px;/*margen interno dentro de la caja */
+    background: #1e1e1e; /*fondo un poco mas claro que el body*/
+    border-radius: 8px;/*bordes redondeados suaves*/
+    box-shadow: ;
+   }
