@@ -52,19 +52,59 @@ a:hover{
 /* ===========================
    SECCIONES
    =========================== */
-   section{
+section{
     margin: 40px 0;/* Separación vertical entre secciones */
     padding: 20px;/*margen interno dentro de la caja */
     background: #1e1e1e; /*fondo un poco mas claro que el body*/
     border-radius: 8px;/*bordes redondeados suaves*/
     box-shadow: 0px 4px 8px rgba(0,0,0,0.5);/* Sombra para efecto de profundidad */
-   }
+}
    /* ===========================
    LISTAS
    =========================== */
-   ul{
+ul{
     margin-left: 20px; /*sangria para listas*/
-   }
-   li{
+}
+li{
     margin-bottom: 8px; /*separacion entre items*/
-   }
+}
+footer{
+    background-color: #1e1e1e;/*fondo oscuro */
+    color: #eaeaea; /*text claro*/
+    text-align: center;/*centrado*/
+    padding: 20px;
+    margin-top: 40px; /*Espaciado con respecto al contenido*/
+    border-top:  2px solid #ff5252; /*linea roja superior*/
+}
+   /*texto del footer*/
+footer p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+   /*link sociales*/
+footer .social a{
+    color: #ff5252; /*rojo vibrante*/
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+   /*hover en los link sociales*/
+footer .social a:hover{
+    color: #ffffff; /*cambia a blanco*/
+    transform: scale(1.1); /*leve zoom*/
+}
+   /*imagenes de productos*/
+img{
+    max-width: 100%; /*hacfef que nunca se desborde de su contenedor*/
+    height: auto; /*mantiene proporcion*/
+    border-radius: 10px;/*bordes redondeados*/
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5); /*sombra suave*/
+    margin: 15px 0; /*espaciado arriba/abajo*/
+    transition:  transform 0.3s ease, box-shadow 0.3s ease;
+}
+/*efecto hover en las imagenes*/
+img:hover{
+    transform: scale(1.05); /*leve zoom*/
+    box-shadow: 0 6px 16px rgba(255, 82, 82,0.6); /*sombra con tinte rojo*/
+}
