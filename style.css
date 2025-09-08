@@ -59,3 +59,12 @@ a:hover{
     border-radius: 8px;/*bordes redondeados suaves*/
     box-shadow: 0px 4px 8px rgba(0,0,0,0.5);/* Sombra para efecto de profundidad */
    }
+   /* ===========================
+   LISTAS
+   =========================== */
+   ul{
+    margin-left: 20px; /*sangria para listas*/
+   }
+   li{
+    margin-bottom: 8px; /*separacion entre items*/
+   }
